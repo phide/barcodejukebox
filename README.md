@@ -1,7 +1,7 @@
 # barcodejukebox
 
 This script is used in a raspberry pi project intendet to create a simple way to play radioplays for kids.
-Please note that this script is neither complete nor will it work for everybody. It will only work for speciffic setups wich i intent to explain later.
+Please note that this script is neither complete nor will it work for everybody. It will only work for speciffic setups explained below. Please use and modify the script in any way you please. Hopefully it will help someone to realise their ideas.
 
 ## requirements
 
