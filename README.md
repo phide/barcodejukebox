@@ -22,13 +22,13 @@ In the attempt to keep it simple and to avoid the need for a database the jukebo
 
 * Every radioplay is stored in its own folder within a library folder
 * The Names of the folders should only use letters, numbers and underscores.
-* The filenames should lead with a two number diget to be addressable as numbered chapters
+* The filenames should lead with a two number digit to be addressable as numbered chapters
 
 ## barcodes
 
-The barcodes i used are Code-128 barcodes with three differend kind of informations wich can be used:
+The barcodes I used are Code-128 barcodes with three differend kind of informations wich can be used:
 
-* play all files in one folder: in this case the barcode should simply contain the name of the folder in wich the music is stored in
+* play all files in one folder: in this case the barcode should simply contain the name of the folder in wich the music is stored
 * play from selected file: in this case the barcode should contain the folder name and the file number wich schould be played speparated by a "-". e.g. "folder_10-03" would play file "03" ff in folder "folder_10"
 * vlc commands. The barcode should lead with a "CMD" followd by a "-" and the command. i.e. "CMD-NEXT" would skip to the next title
 
